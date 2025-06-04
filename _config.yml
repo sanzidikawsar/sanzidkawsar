@@ -13,9 +13,9 @@ title                    : "Sanzid's Cloud"
 title_separator          : "-"
 name                     : &name "Md. Sanzidul Islam"
 description              : &description "PhD candidate and researcher at King Abdulaziz University specializing in Machine Learning, NLP, and Generative AI, with prior experience as a University Faculty."
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://sanzidikawsar.github.io/sanzidkawsar # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "https://github.com/sanzidikawsar/sanzidkawsar"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Md. Sanzidul Islam"
-  pronouns         : # example: "she/her"  
+  pronouns         : "nickname: Sanzid & Kawsar" 
   bio              : "PhD candidate and researcher at King Abdulaziz University specializing in Machine Learning, NLP, and Generative AI, with prior experience as a University Faculty."
   location         : "Dhaka, Bangladesh"
   employer         : "PhD Candidate, KAU, Saudi Arabia"
