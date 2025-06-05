@@ -15,7 +15,7 @@ User-agent: Slurp
 Allow: /
 
 # Sitemap location
-Sitemap: https://sanzidikawsar.github.io/sanzidkawsar/sitemap.xml
+Sitemap: https://www.sanzidkawsar.com/sitemap.xml
 
 # Disallow crawling of specific directories
 Disallow: /assets/js/

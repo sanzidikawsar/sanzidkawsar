@@ -13,7 +13,7 @@ title                    : "Sanzid's Cloud"
 title_separator          : "-"
 name                     : &name "Md. Sanzidul Islam"
 description              : &description "PhD candidate and researcher at King Abdulaziz University specializing in Machine Learning, NLP, and Generative AI, with prior experience as a University Faculty."
-url                      : https://sanzidikawsar.github.io/sanzidkawsar # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://www.sanzidkawsar.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/sanzidikawsar/sanzidkawsar"
 
