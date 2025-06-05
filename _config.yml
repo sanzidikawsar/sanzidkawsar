@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Md. Sanzidul Islam"
-  pronouns         : "nickname: Sanzid or Kawsar" 
+  pronouns         : <i>nickname&colon; Sanzid or Kawsar</i> 
   bio              : "PhD candidate and researcher at King Abdulaziz University specializing in Machine Learning, NLP, and Generative AI, with prior experience as a University Faculty."
   location         : "Dhaka, Bangladesh"
   employer         : "PhD Candidate, KAU, Saudi Arabia"
