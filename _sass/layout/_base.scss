@@ -15,7 +15,9 @@ body {
   margin: 0;
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
-  font-family: 'Roboto', sans-serif;
+  
+  font-family: 'Titillium Web', 'Tiro Bangla', sans-serif;
+
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -27,7 +29,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: $header-font-family;
+  //font-family: $header-font-family;
+  font-family: 'Titillium Web', 'Tiro Bangla', sans-serif !important;
+
   font-weight: bold;
 }
 
@@ -249,7 +253,9 @@ figure {
 figcaption {
   margin-bottom: 0.5em;
   color: var(--global-fig-caption-color);
-  font-family: $caption-font-family;
+  // font-family: $caption-font-family;
+  font-family: 'Titillium Web', 'Tiro Bangla', sans-serif;
+
   font-size: $type-size-6;
 
   a {

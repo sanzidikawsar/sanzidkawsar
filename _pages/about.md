@@ -6,9 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a self-taught AI engineer & datascience researcher..
+I am a self-taught AI engineer & datascience researcher . .
 
+<p style="text-align: justify;">
 Currently, a PhD candidate and researcher at King Abdulaziz University, specializing in Data Science with a focus on Machine Learning, Natural Language Processing (NLP), and Generative AI. Prior to my doctoral studies, I served as a University Faculty at Daffodil International University, where I was actively involved in teaching and research. My work bridges theoretical foundations and real-world applications, with ongoing projects exploring advanced models in AI and data-driven solutions to complex problems.
+</p>
 
 Let me know if you'd like to highlight specific projects, publications, or research interests.
 

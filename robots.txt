@@ -1,0 +1,36 @@
+# www.robotstxt.org
+
+# Block all crawlers by default
+User-agent: *
+Disallow: /
+
+# Allow specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap location
+Sitemap: https://sanzidikawsar.github.io/sanzidkawsar/sitemap.xml
+
+# Disallow crawling of specific directories
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/fonts/
+Disallow: /assets/images/
+Disallow: /_sass/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_posts/
+Disallow: /_pages/
+Disallow: /_data/
+Disallow: /_site/
+Disallow: /.sass-cache/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /vendor/ 
