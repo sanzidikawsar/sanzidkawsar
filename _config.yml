@@ -13,7 +13,7 @@ title                    : "Sanzid's Cloud"
 title_separator          : "-"
 name                     : &name "Md. Sanzidul Islam"
 description              : &description "PhD candidate and researcher at King Abdulaziz University specializing in Machine Learning, NLP, and Generative AI, with prior experience as a University Faculty."
-url                      : https://www.sanzidkawsar.com
+url                      : https://sanzid.dev
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/sanzidikawsar/sanzidkawsar"
 
