@@ -1,4 +1,5 @@
 ---
+lang: bn
 title: 'পর্ব-২ঃ সচরাচর গবেষণার ফিল্ডসমূহ (চলমান..)'
 date: 2019-12-03
 permalink: /posts/2019/03/howtoresearch_02/

@@ -1,0 +1,202 @@
+# Publications — drafted from Google Scholar (user m0eRuEoAAAAJ).
+# `featured: true` surfaces the entry on the home page. Please verify authors,
+# venues, DOIs and add `url:` links where you'd like them.
+
+- title: "ZebraMap: A Multimodal Rare Disease Knowledge Map with Automated Data Aggregation & LLM-Enriched Information Extraction Pipeline"
+  authors: "MS Islam, A Jamal, A Alkhathlan"
+  venue: "Diagnostics (MDPI)"
+  year: 2025
+  type: journal
+  citations: 4
+  featured: true
+
+- title: "A deep learning based assistive system to classify COVID-19 face mask for human safety with YOLOv3"
+  authors: "MR Bhuiyan, SA Khushbu, MS Islam"
+  venue: "11th ICCCNT"
+  year: 2020
+  type: conference
+  citations: 157
+  featured: true
+
+- title: "Ishara-Lipi: The first complete multipurpose open access dataset of isolated characters for Bangla Sign Language"
+  authors: "MS Islam, SSS Mousumi, NA Jessan, AKMSA Rabby, SA Hossain"
+  venue: "Int. Conf. on Bangla Speech and Language Processing (ICBSLP)"
+  year: 2018
+  type: conference
+  citations: 88
+  featured: true
+
+- title: "Sequence-to-sequence Bangla sentence generation with LSTM recurrent neural networks"
+  authors: "MS Islam, SSS Mousumi, S Abujar, SA Hossain"
+  venue: "Procedia Computer Science"
+  year: 2019
+  type: journal
+  citations: 86
+
+- title: "BornoNet: Bangla handwritten characters recognition using convolutional neural network"
+  authors: "ASA Rabby, S Haque, S Islam, S Abujar, SA Hossain"
+  venue: "Procedia Computer Science"
+  year: 2018
+  type: journal
+  citations: 96
+
+- title: "Ekush: A multipurpose and multitype comprehensive database for online off-line Bangla handwritten characters"
+  authors: "AKM Rabby, S Haque, M Islam, S Abujar, SA Hossain"
+  venue: "Int. Conf. on Recent Trends in Image Processing and Pattern Recognition (RTIP2R)"
+  year: 2018
+  type: conference
+  citations: 89
+
+- title: "Leaves diseases detection of tomato using image processing"
+  authors: "TT Mim, MH Sheikh, RA Shampa, MS Reza, MS Islam"
+  venue: "8th SMART"
+  year: 2019
+  type: conference
+  citations: 75
+
+- title: "A potent model to recognize Bangla Sign Language digits using convolutional neural network"
+  authors: "S Islam, SSS Mousumi, AKMSA Rabby, SA Hossain, S Abujar"
+  venue: "Procedia Computer Science"
+  year: 2018
+  type: journal
+  citations: 57
+
+- title: "MediNET: A deep learning approach to recognize Bangladeshi ordinary medicinal plants using CNN"
+  authors: "M Bhuiyan, M Abdullahil-Oaphy, RS Khanam, MS Islam"
+  venue: "Soft Computing Techniques and Applications (Springer)"
+  year: 2021
+  type: conference
+  citations: 23
+
+- title: "A Bengali text generation approach in context of abstractive text summarization using RNN"
+  authors: "S Abujar, AKM Masum, S Islam, F Faisal, SA Hossain"
+  venue: "Innovations in Computer Science and Engineering (Springer)"
+  year: 2020
+  type: conference
+  citations: 22
+
+- title: "Multi Class Fake News Detection using LSTM Approach"
+  authors: "B Majumdar, MR Bhuiyan, MA Hasan, MS Islam, SRH Noori"
+  venue: "10th SMART"
+  year: 2021
+  type: conference
+  citations: 20
+
+- title: "Ishara-Bochon: The first multipurpose open access dataset for Bangla Sign Language isolated digits"
+  authors: "MS Islam, SSS Mousumi, NA Jessan, AKM Rabby, S Abujar, SA Hossain"
+  venue: "RTIP2R"
+  year: 2018
+  type: conference
+  citations: 18
+
+- title: "A simple and mighty arrowhead detection technique of Bangla Sign Language characters with CNN"
+  authors: "MS Islam, SSS Mousumi, AKM Rabby, SA Hossain"
+  venue: "RTIP2R"
+  year: 2018
+  type: conference
+  citations: 18
+
+- title: "A robust deep learning segmentation and identification approach of different Bangladeshi plant seeds using CNN"
+  authors: "M Keya, B Majumdar, MS Islam"
+  venue: "11th ICCCNT"
+  year: 2020
+  type: conference
+  citations: 17
+
+- title: "A study on Dengue fever in Bangladesh: predicting the probability of Dengue infection with external behavior with machine learning"
+  authors: "MS Islam, SA Khushbu, ASA Rabby, T Bhuiyan"
+  venue: "5th ICICCS"
+  year: 2021
+  type: conference
+  citations: 14
+
+- title: "QWORD at CheckThat! 2021: An extreme gradient boosting approach for multiclass fake news detection"
+  authors: "RS Utsha, M Keya, MA Hasan, MS Islam"
+  venue: "CLEF (Working Notes)"
+  year: 2021
+  type: conference
+  citations: 11
+
+- title: "ShonkhaNet: a dynamic routing for Bangla handwritten digit recognition using capsule network"
+  authors: "S Haque, AKM Rabby, MS Islam, SA Hossain"
+  venue: "RTIP2R"
+  year: 2018
+  type: conference
+  citations: 10
+
+- title: "Bangladeshi stock price prediction and analysis with potent machine learning approaches"
+  authors: "S Das, M Arman, SS Hossain, MS Islam, FA Himu, AK Shakir"
+  venue: "EAI Int. Conf. on Cyber Security and Computer Science (ICONCS)"
+  year: 2020
+  type: conference
+  citations: 7
+
+- title: "A deep learning study on understanding Banglish and abbreviated words used in social media"
+  authors: "S Das, MS Islam, I Mahmud"
+  venue: "5th ICICCS"
+  year: 2021
+  type: conference
+  citations: 6
+
+- title: "M82B at CheckThat! 2021: Multiclass fake news detection using BiLSTM"
+  authors: "SS Ashik, AR Apu, NJ Marjana, MS Islam, MA Hasan"
+  venue: "CLEF (Working Notes)"
+  year: 2021
+  type: conference
+  citations: 6
+
+- title: "A proficient model to classify Bangladeshi bank notes for automatic vending machine using a tiny dataset with one-shot learning & Siamese networks"
+  authors: "ME Hossain, A Islam, MS Islam"
+  venue: "11th ICCCNT"
+  year: 2020
+  type: conference
+  citations: 5
+
+- title: "Analyzing the cause of students reluctant to participate in the classroom: a machine learning approach"
+  authors: "M Islam, MS Islam, MAB Siddik, SSS Mousumi"
+  venue: "10th SMART"
+  year: 2021
+  type: conference
+  citations: 3
+
+- title: "Team Sigmoid at CheckThat! 2021 Task 3a: Multiclass fake news detection with machine learning"
+  authors: "AAM Sardar, SA Salma, MS Islam, MA Hasan, T Bhuiyan"
+  venue: "CLEF (Working Notes)"
+  year: 2021
+  type: conference
+  citations: 3
+
+- title: "A review on automatic speech emotion recognition with an experiment using multilayer perceptron classifier"
+  authors: "AAM Sardar, S Islam, T Bhuiyan"
+  venue: "Soft Computing Techniques and Applications (Springer)"
+  year: 2021
+  type: conference
+  citations: 3
+
+- title: "Classifying the usual leaf diseases of paddy plants in Bangladesh using multilayered CNN architecture"
+  authors: "M Abdullahil-Oaphy, M Bhuiyan, MS Islam"
+  venue: "Soft Computing Techniques and Applications (Springer)"
+  year: 2021
+  type: conference
+  citations: 1
+
+- title: "BlackOps at CheckThat! 2021: User profile analysis for intelligent detection of fake tweets"
+  authors: "SM Sohan, SA Khushbu, MS Islam, MA Hasan"
+  venue: "CLEF (Working Notes)"
+  year: 2021
+  type: conference
+  citations: 1
+
+- title: "A proficient deep learning approach to classify the usual military signs by CNN with own dataset"
+  authors: "E Hossain, M Musa, NK Nisat, AH Thusar, Z Hossain, S Islam"
+  venue: "Soft Computing Techniques and Applications (Springer)"
+  year: 2021
+  type: conference
+  citations: 0
+
+- title: "Predicting the appropriate category of Bangla and English books for online book store using deep learning"
+  authors: "M Islam, SA Khushbu, MS Islam"
+  venue: "Soft Computing Techniques and Applications (Springer)"
+  year: 2021
+  type: conference
+  citations: 0

@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="hero-name">{{ site.author.name }}</h1>
+    <p class="hero-title">{{ site.author.title }}</p>
+    <div class="hero-bio">{{ content }}</div>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/works/' | relative_url }}">View works</a>
+      <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a class="btn" href="{{ site.author.email | prepend: 'mailto:' }}">Get in touch</a>
+    </div>
+  </div>
+  {% if site.author.avatar %}
+  <img class="hero-avatar" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="140" height="140">
+  {% endif %}
+</section>
+
+{%- assign featured_pubs = site.data.publications | where: "featured", true -%}
+{%- if featured_pubs.size > 0 -%}
+<section class="home-section">
+  <div class="section-head">
+    <h2>Selected publications</h2>
+    <a class="section-more" href="{{ '/publications/' | relative_url }}">All publications {% include icon.html name="arrow" %}</a>
+  </div>
+  <ul class="pub-list">
+    {%- for pub in featured_pubs -%}
+    <li class="pub-item">
+      <div class="pub-main">
+        {%- if pub.url -%}<a class="pub-title" href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+        {%- else -%}<span class="pub-title">{{ pub.title }}</span>{%- endif -%}
+        <p class="pub-meta">{{ pub.venue }}{% if pub.year %} · {{ pub.year }}{% endif %}{% if pub.citations %} · {{ pub.citations }} citations{% endif %}</p>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}
+
+{%- assign featured_works = site.works | where: "featured", true | sort: "year" | reverse -%}
+{%- if featured_works.size > 0 -%}
+<section class="home-section">
+  <div class="section-head">
+    <h2>Featured works</h2>
+    <a class="section-more" href="{{ '/works/' | relative_url }}">All works {% include icon.html name="arrow" %}</a>
+  </div>
+  <div class="card-grid">
+    {%- for work in featured_works limit: 4 -%}
+    <article class="card">
+      <div class="card-body">
+        <h3 class="card-title">{{ work.title }}</h3>
+        <p class="card-desc">{{ work.excerpt | default: work.description }}</p>
+      </div>
+      <div class="card-foot">
+        {%- if work.tags -%}<span class="tags">{% for t in work.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>{%- endif -%}
+        {%- if work.repo -%}<a class="card-link" href="{{ work.repo }}" target="_blank" rel="noopener">{% include icon.html name="github" %}</a>{%- endif -%}
+        {%- if work.url -%}<a class="card-link" href="{{ work.url }}" target="_blank" rel="noopener">{% include icon.html name="link" %}</a>{%- endif -%}
+      </div>
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}
+
+{%- if site.posts.size > 0 -%}
+<section class="home-section">
+  <div class="section-head">
+    <h2>Recent writing</h2>
+    <a class="section-more" href="{{ '/blog/' | relative_url }}">All posts {% include icon.html name="arrow" %}</a>
+  </div>
+  <ul class="post-list">
+    {%- for post in site.posts limit: 3 -%}
+    <li class="post-item">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <span class="post-title">{{ post.title }}</span>
+        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}

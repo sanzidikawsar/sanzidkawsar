@@ -1,4 +1,5 @@
 ---
+lang: bn
 title: 'পর্ব-১ঃ গবেষণা কী এবং যে কারনে গবেষণা করবেন'
 date: 2019-12-01
 permalink: /posts/2019/01/howtoresearch_01/

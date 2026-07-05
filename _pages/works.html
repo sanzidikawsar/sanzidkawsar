@@ -1,0 +1,59 @@
+---
+layout: page
+permalink: /works/
+title: "Works"
+subtitle: "Research projects across my degrees, and things I build on my own."
+---
+{%- assign academic = site.works | where: "category", "academic" | sort: "year" | reverse -%}
+{%- assign personal = site.works | where: "category", "personal" | sort: "year" | reverse -%}
+
+{%- if academic.size > 0 -%}
+<section class="group">
+  <h2 class="group-title">Academic research</h2>
+  <p class="group-note">Work from my PhD (KAU) and earlier degrees &amp; faculty years at Daffodil International University.</p>
+  <div class="card-grid">
+    {%- for work in academic -%}
+    <article class="card">
+      <div class="card-body">
+        <h3 class="card-title">{{ work.title }}</h3>
+        <p class="card-desc">{{ work.excerpt | default: work.description }}</p>
+      </div>
+      <div class="card-foot">
+        <span class="tags">
+          {%- if work.level -%}<span class="tag">{{ work.level }}</span>{%- endif -%}
+          {%- for t in work.tags -%}<span class="tag">{{ t }}</span>{%- endfor -%}
+        </span>
+        <span class="card-links">
+          {%- if work.repo -%}<a class="card-link" href="{{ work.repo }}" target="_blank" rel="noopener" aria-label="Code">{% include icon.html name="github" %}</a>{%- endif -%}
+          {%- if work.url -%}<a class="card-link" href="{{ work.url }}" target="_blank" rel="noopener" aria-label="Link">{% include icon.html name="link" %}</a>{%- endif -%}
+        </span>
+      </div>
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}
+
+{%- if personal.size > 0 -%}
+<section class="group">
+  <h2 class="group-title">Personal &amp; open-source projects</h2>
+  <p class="group-note">Things I build for myself and release openly.</p>
+  <div class="card-grid">
+    {%- for work in personal -%}
+    <article class="card">
+      <div class="card-body">
+        <h3 class="card-title">{{ work.title }}</h3>
+        <p class="card-desc">{{ work.excerpt | default: work.description }}</p>
+      </div>
+      <div class="card-foot">
+        <span class="tags">{%- for t in work.tags -%}<span class="tag">{{ t }}</span>{%- endfor -%}</span>
+        <span class="card-links">
+          {%- if work.repo -%}<a class="card-link" href="{{ work.repo }}" target="_blank" rel="noopener" aria-label="Code">{% include icon.html name="github" %}</a>{%- endif -%}
+          {%- if work.url -%}<a class="card-link" href="{{ work.url }}" target="_blank" rel="noopener" aria-label="Link">{% include icon.html name="link" %}</a>{%- endif -%}
+        </span>
+      </div>
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}

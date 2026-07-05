@@ -1,0 +1,22 @@
+---
+layout: page
+permalink: /blog/
+title: "Blog"
+subtitle: "Notes on research, AI, and occasional long-form writing — some in Bangla."
+---
+{%- assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+{%- for grp in posts_by_year -%}
+<section class="year-group">
+  <h2 class="year-label">{{ grp.name }}</h2>
+  <ul class="post-list">
+    {%- for post in grp.items -%}
+    <li class="post-item">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <span class="post-title" {% if post.lang %}lang="{{ post.lang }}"{% endif %}>{{ post.title }}</span>
+        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endfor -%}

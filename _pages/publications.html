@@ -1,36 +1,36 @@
 ---
-layout: archive
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: "Publications"
+subtitle: "Peer-reviewed research in machine learning, NLP, computer vision and applied AI."
 ---
+{%- assign s = site.scholar -%}
+{%- if s -%}
+<div class="metrics">
+  <div class="metric"><span class="metric-num">{{ s.citations }}</span><span class="metric-label">Citations</span></div>
+  <div class="metric"><span class="metric-num">{{ s.h_index }}</span><span class="metric-label">h-index</span></div>
+  <div class="metric"><span class="metric-num">{{ s.i10_index }}</span><span class="metric-label">i10-index</span></div>
+  {%- if s.profile -%}<div class="metric"><a class="metric-num" style="font-size:1rem;line-height:2.2" href="{{ s.profile }}" target="_blank" rel="noopener">Google Scholar {% include icon.html name="arrow" %}</a></div>{%- endif -%}
+</div>
+{%- endif -%}
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+{%- assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse -%}
+{%- for grp in by_year -%}
+<section class="year-group">
+  <h2 class="year-label">{{ grp.name }}</h2>
+  <ul class="pub-list">
+    {%- for pub in grp.items -%}
+    <li class="pub-item">
+      <div class="pub-main">
+        {%- if pub.url -%}<a class="pub-title" href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+        {%- else -%}<span class="pub-title">{{ pub.title }}</span>{%- endif -%}
+        <p class="pub-authors">{{ pub.authors }}</p>
+        <p class="pub-meta">{{ pub.venue }}{% if pub.type %} · {{ pub.type }}{% endif %}{% if pub.citations and pub.citations > 0 %} · {{ pub.citations }} citations{% endif %}</p>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endfor -%}
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<p class="group-note">Author name variants appear as <em>MS&nbsp;Islam / S&nbsp;Islam / M&nbsp;Islam</em>. See <a href="{{ s.profile }}" target="_blank" rel="noopener">Google Scholar</a> or <a href="https://orcid.org/0000-0002-9563-2419" target="_blank" rel="noopener">ORCID</a> for the authoritative list.</p>

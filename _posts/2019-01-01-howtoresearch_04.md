@@ -1,4 +1,5 @@
 ---
+lang: bn
 title: 'পর্ব-৪ঃ টপিক নির্বাচন ও গবেষণার শুরু'
 date: 2019-12-10
 permalink: /posts/2019/01/howtoresearch_04/

@@ -1,4 +1,5 @@
 ---
+lang: bn
 title: 'পর্ব-৩ঃ সচরাচর গবেষণার ফিল্ডসমূহ'
 date: 2019-12-07
 permalink: /posts/2019/01/howtoresearch_03/

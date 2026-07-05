@@ -1,4 +1,5 @@
 ---
+lang: bn
 title: 'পর্ব-৫ঃ পেপার লেখা (আর্টিকেল পাবলিশের প্রথম ধাপ)'
 date: 2019-12-13
 permalink: /posts/2019/01/howtoresearch_05/

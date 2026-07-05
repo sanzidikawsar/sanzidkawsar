@@ -1,4 +1,5 @@
 ---
+lang: bn
 title: 'পর্ব-৬ঃ থিসিস পাবলিশ করা (কোথায়-কিভাবে)'
 date: 2019-12-15
 permalink: /posts/2019/01/howtoresearch_06/
