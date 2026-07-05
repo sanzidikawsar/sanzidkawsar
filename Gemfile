@@ -1,17 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
-
+# GitHub Pages legacy build stack (Jekyll 3.x + approved plugins).
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"
-  gem "jekyll-sitemap", "~> 1.4"
-  gem "jekyll-seo-tag", "~> 2.8"
-end
-
-# Windows and JRuby do not include zoneinfo files, so bundle the tzinfo-data gem
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
+  gem "github-pages"
 end
 
 gem "webrick", "~> 1.8"
